@@ -1,0 +1,88 @@
+/* Body rule set */
+body {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    font: 16px Arial, sans-serif;
+}
+
+/* Structural class selector */
+.structural {
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Styling for h1 */
+h1 {
+    color: #8c0773;
+    font-size: 24px;
+}
+
+/* Styling for h2 */
+h2 {
+    color: #f732b2;
+    font-size: 20px;
+}
+
+/* Styling for the main section */
+main {
+    height: 70vh;
+}
+
+/* Image ruleset */
+img {
+    border: 1px solid #333;
+    width: 90%;
+    height: 80%;
+}
+
+/* Styling for figure elements */
+figure {
+    background-color: #f0f0f0;
+    width: 45%;
+    height: 60%;
+    margin: auto;
+    padding: 10px;
+}
+
+/* Float one figure right and the other figure left */
+#cat-figure {
+    float: left;
+}
+
+#Multiple-cat-figure{
+    float: right;
+}
+
+/* Clear property for the section element */
+section {
+    clear: both;
+}
+
+/* Styling for the caption */
+figcaption {
+    font-weight: bold;
+    font-size: 18px;
+    color: #ea26ed;
+    padding: 5px;
+}
+
+/* Styling for links and hover effect */
+a {
+    color: #993394;
+}
+
+a:hover {
+    color: #f87219;
+}
+
+/* Change list bullet points and increase line height */
+ul {
+    list-style-type: square;
+    line-height: 1.5;
+}
+
+/* Background color for header and footer */
+header, footer {
+    background-color: #fa60d3;
+}
